@@ -1,0 +1,3 @@
+# auto-installed by ComfyUI
+psutil
+# nvidia-smi  in PATH (for GPU data)

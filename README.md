@@ -14,7 +14,9 @@ Zero-config, zero-console-spam, single-file install.
 1. Clone this repo into `custom_nodes`:
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/YourName/ComfyUI-TorchMonitor.git
+git clone https://github.com/love530love/ComfyUI-TorchMonitor.git
+cd ComfyUI-TorchMonitor
+pip install --no-deps -r requirements.txt
 ```
 
 2. Restart ComfyUI – a green monitor bar appears before the AITechLab button.
@@ -42,7 +44,7 @@ License
 MIT
 
 
-## 安装方式
+## 安装方式补充说明
 1. ComfyUI-Manager 搜索 `torchmonitor` 一键安装  
 2. 或 `git clone` 到 `custom_nodes` 后重启 ComfyUI
 3. 或 `pip install comfy-cli` 后运行 `comfy node install torchmonitor` 后重启 ComfyUI

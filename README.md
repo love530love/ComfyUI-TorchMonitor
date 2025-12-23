@@ -42,3 +42,11 @@ License
 MIT
 
 
+## 安装方式
+1. ComfyUI-Manager 搜索 `torchmonitor` 一键安装  
+2. 或 `git clone` 到 `custom_nodes` 后重启 ComfyUI
+3. 或 `pip install comfy-cli` 后运行 `comfy node install torchmonitor` 后重启 ComfyUI
+```
+pip install comfy-cli
+comfy node install torchmonitor
+```
